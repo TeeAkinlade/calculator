@@ -1,0 +1,69 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calculator{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+  margin: 2em;
+  width: 400px;
+  font-weight: bold;
+}
+.container .display{
+  text-align: right;
+  padding: 15px 5px 1px 1px ;
+  font-size: 30px;
+  background-color: white;
+  height: 50px;
+  width: auto;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+.container button{
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  background-color: grey;
+  color: white;
+  box-shadow: 2px 1px 1px 2px rgb(109, 109, 109);
+  cursor: pointer;
+  margin: 5px;
+}
+.container .clearBtn{
+  background-color: rgb(218, 224, 218);
+  color: black;
+  text-align: center;
+  width: 145px;
+  margin: auto;
+  box-shadow: 2px 1px 1px 2px rgb(173, 173, 173);
+  
+
+}
+.container .equalBtn{
+  background-color: rgb(11, 121, 11);
+  box-shadow: 2px 1px 1px 2px rgb(0, 22, 0);
+}
+.container .deleteBtn{
+  background-color: white;
+  color: black;
+  box-shadow: 2px 1px 1px 2px rgb(173, 173, 173);
+
+}
+.container .operator-button{
+  background-color: rgb(7, 124, 124);
+  box-shadow: 2px 1px 1px 2px rgb(1, 17, 17);
+}
